@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formulario.css" media="screen"> 
+    <title>Cadastro Detran</title>
+</head>
+<body>
+    <form action="formulario.php" method="post">
+    <div>
+        <h1 id="titulo">Cadastro Detran</h1>
+        <p id="subtitulo">Complete suas informações</p>
+    </div>
+
+    <form>
+        <fieldset class="campo">
+            <div>
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+        </fieldset>
+
+        <fieldset class="campo">
+            <div>
+                <label for="idade"><strong>Idade</strong></label>
+                <input type="number" name="idade" id="idade" required>
+            </div>
+        </fieldset>
+
+        <fieldset class="campo">
+            <div>
+                <label for="profissão"><strong>Profissão</strong></label>
+                <input type="text" name="profissão" id="profissão" required>
+            </div>
+        </fieldset>
+
+        <fieldset class="campo">
+            <div>
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" name="email" id="email" required>
+            </div>
+        </fieldset>
+
+        <fieldset class="campo">
+            <div>
+                <label for="telefone"><strong>Telefone</strong></label>
+                <input type="tel" name="telefone" id="telefone" required>
+            </div>
+        </fieldset>
+
+        <fieldset class="campo">
+            <div>
+                <label for="data de preenchimento"><strong>Data de Preenchimento</strong></label>
+                <input type="date" name="datadepreenchimento" id="datadepreenchimento" required>
+            </div>
+        </fieldset>
+
+        <button class="botão" type="submit" name="action" >Concluído</button>
+        
+
+    </form>
+
+</body>
+</html>
